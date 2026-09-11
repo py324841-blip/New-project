@@ -1,0 +1,49 @@
+{
+  background-color: chartreuse;
+
+}
+
+h1 {
+    font-size: 90px;
+    color: deeppink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    background-color:salmon;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.workout-SECTION {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+
+.box {
+   /** border: 2px solid black;**/
+    height: 300px;
+    width: 23%;
+    background-color: salmon;
+    padding: 20px 0px 15px;
+    margin: 15px;
+    
+}
+.box-img {
+    height:200px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box-content {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box-content p {
+    color: #007185;
+}

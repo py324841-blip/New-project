@@ -1,0 +1,58 @@
+body {
+
+    background-image: url(avg.png);
+    background-size: cover;
+}
+.heading {
+  text-align: ;
+  font-size: 30px;
+  color:cyan;
+}
+.member {
+    background: var(--snd-bg-color);
+} 
+.member-content {
+    display: flex;
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    align-items: center;
+    justify-content: space-around;
+    gap: 2.3rem;
+    margin-top: 4.2rem;
+}
+.box {
+    padding: 30px 30px 50px 30px;
+    height: 20rem;
+    width:20%;
+    background:lavenderblush ;
+    border-radius: 28px;
+    border: 1px solid transparent;
+    box-shadow: 0 0 5px aquamarine;
+    transition: all 0.5s ease;
+    cursor: pointer;
+    
+}
+.box h3 {
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.box h2 {
+    font-size: 43px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.box ol li {
+    list-style: disc;
+    font-size: 1.4rem;
+    padding-bottom: 1.02rem;
+
+}
+.box:hover {
+    border: 1px solid aquamarine;
+    transform: translateY(-5px) scale(1.03);
+
+}
+span {
+    color: springgreen;
+}
+
